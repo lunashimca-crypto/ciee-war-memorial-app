@@ -1,0 +1,185 @@
+const chapter1Questions = [
+  {
+    id: "ch1-q1",
+    chapter: 1,
+    label: "Field Report #01",
+    type: "multiple_choice",
+    question: "The War Memorial is built on land that used to be the site of what?",
+    options: [
+      "A royal palace",
+      "The Republic of Korea Army Headquarters",
+      "A Japanese colonial school",
+      "An American military hospital",
+    ],
+    answer: "B",
+    image: "q1-1.jpg",
+  },
+  {
+    id: "ch1-q2",
+    chapter: 1,
+    label: "Field Report #02",
+    type: "multiple_choice",
+    question: "What does the \"Statue of Brothers\" near the entrance represent?",
+    options: [
+      "Two brothers who ended up fighting on opposite sides of the Korean War",
+      "Soldiers dying from lack of supplies",
+      "A family separated during Japanese colonization",
+      "The signing of the armistice",
+    ],
+    answer: "A",
+    image: "q1-2.jpg",
+  },
+  {
+    id: "ch1-q3",
+    chapter: 1,
+    label: "Field Report #03",
+    type: "multiple_choice",
+    question: "What exact moment is the \"Peace Clock Tower\" frozen at?",
+    options: [
+      "The signing of the 1953 armistice",
+      "4:00 AM, June 25, 1950 — the start of the Korean War",
+      "Korea's liberation in 1945",
+      "Noon on Korea's Independence Day",
+    ],
+    answer: "B",
+    image: "q1-3.jpg",
+  },
+  {
+    id: "ch1-q4",
+    chapter: 1,
+    label: "Field Report #04",
+    type: "multiple_choice",
+    question: "The long memorial corridors are inscribed with the names of about how many soldiers?",
+    options: ["2,000", "20,000", "200,000+", "2 million"],
+    answer: "C",
+    image: "q1-4.jpg",
+  },
+  {
+    id: "ch1-q5",
+    chapter: 1,
+    label: "Field Report #05",
+    type: "multiple_choice",
+    question: "Which major military operation, led by General Douglas MacArthur, is a key turning point covered in the Korean War Room?",
+    options: ["The Incheon Landing", "The Battle of Midway", "D-Day", "The Tet Offensive"],
+    answer: "A",
+    image: "q1-5.jpg",
+  },
+  {
+    id: "ch1-q6",
+    chapter: 1,
+    label: "Field Report #06",
+    type: "multiple_choice",
+    question: "How many countries sent combat troops to fight for South Korea under the UN Command?",
+    options: ["5", "10", "16", "25"],
+    answer: "C",
+    image: "q1-6.jpg",
+  },
+  {
+    id: "ch1-q7",
+    chapter: 1,
+    label: "Field Report #07",
+    type: "multiple_choice",
+    question: "What American aircraft on display is one of only three examples publicly displayed outside the U.S.?",
+    options: ["The F-16 fighter jet", "The B-52 bomber", "The Apache helicopter", "The C-130 transport plane"],
+    answer: "B",
+    image: "q1-7.jpg",
+  },
+  {
+    id: "ch1-q8",
+    chapter: 1,
+    label: "Field Report #08",
+    type: "multiple_choice",
+    question: "According to the museum, what is a main purpose of preserving this history?",
+    options: [
+      "To celebrate military victories",
+      "To learn lessons that help prevent future wars and support peaceful reunification",
+      "To promote tourism revenue",
+      "To honor only Korean soldiers",
+    ],
+    answer: "B",
+    image: "q1-8.jpg",
+  },
+  {
+    id: "ch1-q9",
+    chapter: 1,
+    label: "Field Report #09",
+    type: "multiple_choice",
+    question: "True or False: Admission to the War Memorial's permanent exhibits is free.",
+    options: ["True", "False"],
+    answer: "A",
+    image: "q1-9.jpg",
+  },
+  {
+    id: "ch1-q10",
+    chapter: 1,
+    label: "Field Report #10",
+    type: "multiple_choice",
+    question: "The museum displays military equipment used in which three conflicts?",
+    options: [
+      "Korean War, World War II, Vietnam War",
+      "World War I, World War II, Gulf War",
+      "Korean War, Vietnam War, Iraq War",
+      "World War II, Korean War, Afghanistan War",
+    ],
+    answer: "A",
+    image: "q1-10.jpg",
+  },
+];
+
+export const questions = [...chapter1Questions];
+
+export const chapterContent = {
+  1: {
+    id: 1,
+    theme: "warmemorial",
+    title: "Mission 1: Luna's First Trail",
+    subtitle: "War Memorial of Korea",
+    codename: "OPERATION COLD ARCHIVE",
+    threatLevel: "Moderate",
+    lastKnownLocation: "War Memorial of Korea, Yongsan-gu",
+    introTitle: "The map's only mark is here",
+    introCopy:
+      "The War Memorial of Korea waits at the edge of the city, carrying the hush of a place that remembers what many would rather forget.",
+    introImage: "ch1-intro.jpg",
+    completionTitle: "Mission complete",
+    completionCopy:
+      "You've reconstructed everything Luna left here. This was the only place on her map — and now her file is closed.",
+    completionHint: "Luna's trail ends here. The rest of her story is yours to carry.",
+    rankLadder: [
+      { label: "Recruit" },
+      { label: "Private" },
+      { label: "Corporal" },
+      { label: "Sergeant" },
+    ],
+    stampText: "VERIFIED",
+    segments: [
+      {
+        story: {
+          title: "Luna's Journal, Entry 1",
+          body:
+            "They told me this place holds the coldest kind of truth — not about war, but about who we choose to remember. I came looking for one name. I found thousands.",
+          image: "journal-1a.jpg",
+        },
+        questions: chapter1Questions.slice(0, 4),
+      },
+      {
+        story: {
+          title: "Luna's Journal, Entry 2",
+          body:
+            "I found the section on the alliance today. My grandfather's unit was here — I didn't know that until I stood in front of it. Some things you have to see in person to actually believe.",
+          image: "journal-1b.jpg",
+        },
+        questions: chapter1Questions.slice(4, 7),
+      },
+      {
+        story: {
+          title: "Luna's Journal, Entry 3",
+          body:
+            "Someone else has been asking about me. I don't think I'm the first person to follow this trail. I'm leaving the rest where only someone who actually walks through this place would find it.",
+          image: "journal-1c.jpg",
+        },
+        questions: chapter1Questions.slice(7, 10),
+      },
+    ],
+  },
+};
