@@ -384,7 +384,7 @@ function StoryCard({ story, onContinue, theme }) {
       <div className="story-paper">
         <p className="story-eyebrow">Recovered Document</p>
         <h2>{story.title}</h2>
-        <ImageFrame src={`${process.env.PUBLIC_URL}/images/${story.image}`} alt={story.title} className="story-image" />
+       <ImageFrame src={`${import.meta.env.BASE_URL}images/${story.image}`} alt={story.title} className="story-image" />
         <div className="story-body-stack">
           {chunks.slice(0, visibleCount).map((chunk, i) => (
             <p
@@ -442,7 +442,7 @@ function QuestionCard({ question, state, onSubmit, onAdvance, theme, stampText }
       <div className="card-inner">
         <p className="card-label">{question.label}</p>
         <p className="card-question">{question.question}</p>
-        <ImageFrame src={`${process.env.PUBLIC_URL}/images/${question.image}`} alt={question.label} className="question-image" />
+        <ImageFrame src={`${import.meta.env.BASE_URL}images/${question.image}`} alt={question.label} className="question-image" />
 
 
         {question.type === "multiple_choice" ? (
@@ -1020,8 +1020,7 @@ export default function App() {
           <p className="intro-eyebrow reveal reveal-1">{chapter?.subtitle}</p>
           <h1 className="intro-title reveal reveal-2">{chapter?.introTitle}</h1>
           <p className="intro-copy reveal reveal-3">{chapter?.introCopy}</p>
-          <ImageFrame src={`${process.env.PUBLIC_URL}/images/${chapter?.introImage}`} alt={chapter?.introTitle} className="chapter-intro-image reveal reveal-4" />
-
+          <ImageFrame src={`${import.meta.env.BASE_URL}images/${chapter?.introImage}`} alt={chapter?.introTitle} className="chapter-intro-image reveal reveal-4" />
           <button className="cmd-button primary reveal reveal-5" type="button" onClick={handleEnterChapterStory}>
             Begin Operation
           </button>
