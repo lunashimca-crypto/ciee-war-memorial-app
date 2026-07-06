@@ -68,7 +68,8 @@ _(add screenshots or a short GIF of the mission briefing, a sample question, the
 
 | Mission Briefing | Question Flow | Final Rank | Certificate |
 |---|---|---|---|
-| _screenshot_ | _screenshot_ | _screenshot_ | _screenshot_ |
+|<img width="1106" height="1460" alt="image" src="https://github.com/user-attachments/assets/da311464-0f6c-4aa9-9d85-72bd82cfb0e5" />
+ | _screenshot_ | _screenshot_ | |
 
 ## How It Works
 
