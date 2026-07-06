@@ -64,10 +64,9 @@ The experience is designed to be:
 
 ## Screenshots
 
-_(add screenshots or a short GIF of the mission briefing, a sample question, the final rank screen, and the certificate)_
-
 | Mission Briefing | Question Flow | Final Rank | Certificate |
-|<img width="1106" height="1460" alt="image" src="https://github.com/user-attachments/assets/da311464-0f6c-4aa9-9d85-72bd82cfb0e5" />|<img width="1106" height="1460" alt="image" src="https://github.com/user-attachments/assets/da311464-0f6c-4aa9-9d85-72bd82cfb0e5" />||<img width="996" height="1472" alt="image" src="https://github.com/user-attachments/assets/01b6975d-6e62-4fc4-b9e1-2a775c972113" />|<img width="1106" height="1460" alt="image" src="https://github.com/user-attachments/assets/da311464-0f6c-4aa9-9d85-72bd82cfb0e5" />| <img width="968" height="1420" alt="image" src="https://github.com/user-attachments/assets/a73bcba0-9920-4902-accd-c8c9f6c0f3aa" />| <img width="662" height="1022" alt="image" src="https://github.com/user-attachments/assets/5f278f75-0d62-4a2a-9dc3-aaf270890ce1" />|
+|:---:|:---:|:---:|:---:|
+| <img width="220" alt="Mission Briefing" src="https://github.com/user-attachments/assets/da311464-0f6c-4aa9-9d85-72bd82cfb0e5" /> | <img width="220" alt="Question Flow" src="https://github.com/user-attachments/assets/01b6975d-6e62-4fc4-b9e1-2a775c972113" /> | <img width="220" alt="Final Rank" src="https://github.com/user-attachments/assets/a73bcba0-9920-4902-accd-c8c9f6c0f3aa" /> | <img width="220" alt="Certificate" src="https://github.com/user-attachments/assets/5f278f75-0d62-4a2a-9dc3-aaf270890ce1" /> |
 
 ## How It Works
 
