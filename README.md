@@ -11,7 +11,7 @@ A standalone, single-mission version of the original two-location **"CIEE Scaven
 
 ## Why This Project
 
-CIEE Korea runs an in-person orientation activity at the War Memorial of Korea, and needed a way for students to explore the museum independently while still engaging meaningfully with specific exhibits — not just wandering. This app turns that walkthrough into a guided mission: a short narrative sets the context, 8 questions anchor students to real locations, and a final rank gives the activity a sense of closure and light competition.
+CIEE Korea runs an in person orientation at the War Memorial of Korea and needed a way for students to explore the museum independently while still engaging meaningfully with specific exhibits not just wandering. This app turns that walkthrough into a guided mission: a short narrative sets the context, 8 questions anchor students to real locations, and a final rank adds closure and light competition.
 
 I led this project end to end, from concept through deployment:
 
@@ -91,12 +91,13 @@ npm run build
 
 ## Background
 
-Adapted from a larger two-location **CIEE Scavenger Hunt** app, this standalone version isolates the War Memorial of Korea chapter, including:
+Adapted from a larger two-location **CIEE Scavenger Hunt** app, this is about the War Memorial of Korea chapter, including:
 
 - Renumbered questions (1–8, standalone rather than part of a two-location sequence)
 - A rewritten, self-contained narrative for the mission briefing and ending
 - Its own dedicated `localStorage` key to avoid conflicts with the original app
 
-## Credits
+## Other CIEE Projects
 
-Made with love for CIEE Korea students
+- [Korea Food Guide](https://github.com/lunashimca-crypto/restaurant-app-ciee)
+- [Gyeonghuigung Palace & Seoul Museum of History](https://github.com/lunashimca-crypto/ciee-gyeonghuigung-app)
