@@ -11,7 +11,7 @@ A standalone, single-mission version of the original two-location **"CIEE Scaven
 
 ## Why This Project
 
-CIEE Korea runs an in person orientation at the War Memorial of Korea and needed a way for students to explore the museum independently while still engaging meaningfully with specific exhibits not just wandering. This app turns that walkthrough into a guided mission: a short narrative sets the context, 8 questions anchor students to real locations, and a final rank adds closure and light competition.
+CIEE Korea runs an in person orientation at the War Memorial of Korea and needed a way for students to explore the museum independently while still engaging meaningfully with specific exhibits not just wandering. 
 
 I led this project end to end, from concept through deployment:
 
