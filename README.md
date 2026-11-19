@@ -42,7 +42,7 @@ The experience is designed to be:
 - [How It Works](#how-it-works)
 - [Deployment](#deployment)
 - [Background](#background)
-- [Credits](#credits)
+- [Other CIEE Apps](#Other-ciee-apps)
 
 ---
 
@@ -51,7 +51,7 @@ The experience is designed to be:
 - [Vite](https://vitejs.dev/) — build tool & dev server
 - JavaScript, HTML, CSS
 - Browser local storage for saving student progress
-- Built with [Claude](https://www.anthropic.com/claude) (Anthropic) as an AI development partner — code was generated and refined iteratively based on requirements and content I directed
+- Built with [Claude](https://www.anthropic.com/claude) (Anthropic) as an AI development partner. Code was generated and refined iteratively based on requirements and content I directed
 
 ## Key Features
 
